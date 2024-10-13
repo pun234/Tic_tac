@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    text-align: center;
+  }
+  
+  .container {
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ccc;
+  
+  }
+  
+  .cube {
+    height: 65vmin;
+    width: 70vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2.0vmin;
+  }
+  
+  .box {
+    height: 18vmin;
+    width: 18vmin;
+    border-radius:1rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
+    font-size: 80px;
+    /* color: #b31010; */
+    color:#ff0066;
+    background-color: #5a7bc0;
+  }
+  .box:hover{
+    background-color: #5a7bc0;
+  }
+  #reset{
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #b31010;
+    color: #fff;
+    border-radius: 1rem;
+    border: none;
+  }
+  #reset:hover{
+    background-color: #54d310;
+  }
+  #newgame{
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #d40f57;
+    color: #fff;
+    border-radius: 1rem;
+    border: none;
+  }
+  
+  #winner{
+    color: #ff0000;
+    font-size: 5vmin;
+  }
+  
+  .vffd {
+    height: 100vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4rem;
+  }
+  
+  .hide {
+    display: none;
+  }
